@@ -1,0 +1,78 @@
+button{
+    font-family: Vendana;
+    font-size: 16pt;
+    background-color: #456;
+    color:#ccc;
+    border-radius: 5px;
+    width:100%;
+    border: solid 1px gray;
+}
+
+button:hover{
+    background-color: #567;
+    cursor: pointer;
+}
+textarea{
+    font-family: monospace;
+    font-size:16pt;
+    width: 100%;
+    padding: 5px;
+    height: 5rem;
+}
+body{
+    background-color: #345;
+    color: #ccc;
+    font-family: Verdana;
+    font-size:16pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#result{
+    white-space: pre;
+}
+.firstDiv{
+    background-color: red;
+    width: 100px;
+}
+#idInputField{
+    height: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 30%;
+}
+.searchButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.insertButton{
+    margin-bottom: 10px ;
+}
+#insertYourText{
+    width: 50rem;
+    height: 2rem;
+    
+}
+
+#insertField{
+    width: 100%;
+    height: 3rem;
+    border: solid 2px green;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+   
+}
+#firstDiv{
+    margin-bottom: 2rem;
+}
+#outputField{
+    width:100%;
+    height: 4rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
